@@ -1,4 +1,4 @@
-# 2018-6-9 ivan: initial commit
+# 2018-6-9 Aditya: initial commit
 # 2018-6-17 put everything inside functions
 
 import numpy as np
@@ -96,7 +96,7 @@ def make_data():
     # and join to x_train. These are the cols shown by the decision tree with highest
     # importance towards finding the rare classes r2l and u2r.
 
-    # Ady's work
+    # dimensionality reduction
     from sklearn.decomposition import TruncatedSVD
     tSVD = TruncatedSVD(n_components=10, random_state = 4129)
     catsvd_train = tSVD.fit_transform(cats_train)
