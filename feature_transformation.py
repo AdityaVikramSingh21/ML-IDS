@@ -2,7 +2,7 @@
 """
 Created on Sun Jun 24 16:12:45 2018
 
-@author: Nic
+@author: Aditya
 """
 from sklearn import preprocessing
 from dataload import load_object, save_object
